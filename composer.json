@@ -1,0 +1,20 @@
+{
+  "name": "uruba/financalc-yamlserializer",
+  "description": "YAML serializer for FinanCalc",
+  "keywords": ["calculator", "debt", "mortgage", "annuity", "amortization", "serialize", "yaml"],
+  "license": "Unlicense",
+  "authors": [
+    {
+      "name": "Václav Uruba",
+      "email": "uruba@outlook.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "uruba/financalc" : ">=0.2.0",
+    "symfony/yaml" : "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  }
+}
