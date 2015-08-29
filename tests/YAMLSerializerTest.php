@@ -10,7 +10,7 @@ class YAMLSerializerTest extends \PHPUnit_Framework_TestCase
     // the example is the same as in the DebtAmortizatorTest
     private $debtAmortizatorFactory;
 
-    public function testJSONSerializer()
+    public function testYAMLSerializer()
     {
         $yaml_output = $this
             ->debtAmortizatorFactory
