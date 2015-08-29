@@ -11,4 +11,4 @@ php:
 before_script: composer install
 
 # omitting "script:" will default to phpunit
-script: phpunit --coverage-text --testdox  --coverage-clover=coverage.xml tests/YAMLSerializerTest
+script: phpunit tests/YAMLSerializerTest
