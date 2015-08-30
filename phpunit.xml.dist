@@ -1,6 +1,7 @@
 <phpunit
         convertWarningsToExceptions="false"
-        bootstrap="vendor/autoload.php">
+        bootstrap="vendor/autoload.php"
+        processUncoveredFilesFromWhitelist="false">
 
     <testsuites>
         <testsuite name="Main Test Suite">
@@ -9,8 +10,8 @@
     </testsuites>
 
     <filter>
-        <whitelist>
-            <directory suffix=".php">/src</directory>
+        <whitelist addUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">./src</directory>
         </whitelist>
     </filter>
 
