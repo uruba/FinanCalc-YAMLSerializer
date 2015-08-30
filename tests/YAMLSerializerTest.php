@@ -163,9 +163,6 @@ class YAMLSerializerTest extends \PHPUnit_Framework_TestCase
 
     protected function setUp()
     {
-        require_once dirname(__FILE__) . '/../vendor/uruba/financalc/src/FinanCalc.php';
-        require_once dirname(__FILE__) . '/../src/YAMLSerializer.php';
-
         $this->debtAmortizatorFactory = FinanCalc
             ::getInstance()
             ->getFactory('DebtAmortizatorFactory')
