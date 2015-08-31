@@ -1,7 +1,4 @@
-<phpunit
-        convertWarningsToExceptions="false"
-        bootstrap="vendor/autoload.php"
-        processUncoveredFilesFromWhitelist="false">
+<phpunit bootstrap="vendor/autoload.php">
 
     <testsuites>
         <testsuite name="Main Test Suite">
